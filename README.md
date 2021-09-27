@@ -13,7 +13,5 @@ docker-compose up -d
 And you can access **http://localhost:3000**
 
 The following is a routes in this project
-```
-GET => auth/google/url # routes for get url login to google, this route return a link / url for login to google account
-GET => auth/me?token=token # routes for get data your google account with earned token from a logged in google account
-```
+- GET => auth/google/url # routes for get url login to google, this route return a link / url for login to google account
+- GET => auth/me?token=token # routes for get data your google account with earned token from a logged in google account
