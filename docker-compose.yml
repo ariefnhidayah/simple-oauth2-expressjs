@@ -3,9 +3,9 @@ services:
     app:
         build: .
         environment:
-            GOOGLE_CLIENT_ID: "754371098683-ef0phtlq4tj3jgbk7mnd90buap7lje1t.apps.googleusercontent.com"
-            GOOGLE_CLIENT_SECRET: "f1uhcz9qDqHWMu5trLYT1pSq"
-            JWT_SECRET: "t3st1n9221"
+            GOOGLE_CLIENT_ID: ""
+            GOOGLE_CLIENT_SECRET: ""
+            JWT_SECRET: ""
             API_URL: "http://localhost"
             PORT: "3000"
             GOOGLE_API_URL: "https://accounts.google.com/o/oauth2/v2/auth"
